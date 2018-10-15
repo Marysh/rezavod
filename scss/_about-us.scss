@@ -1,0 +1,38 @@
+.about-us {
+  background-color: white;
+  padding: 10px 0;
+  .dia {
+    color: white;
+    min-height: 55px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      cursor: pointer;
+      opacity: 0.8;
+    }
+  }
+  h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #ffe8a1;
+    margin-bottom: 10px;
+  }
+  @media (min-width: 768px) {
+    .about-us {
+      padding-top: 30px;
+    }
+    .dia {
+      min-height: 225px;
+      color: white;
+      font-size: 22px;
+      margin-bottom: 30px;
+    }
+    h2 {
+      margin-bottom: 25px;
+    }
+  }
+}

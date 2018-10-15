@@ -1,0 +1,35 @@
+.description {
+  padding: 25px 0;
+  background-color: orange;
+  width: 100%;
+  color: white;
+
+  .description-part {
+    margin-bottom: 30px;
+  }
+  p {
+    margin: 30px 0;
+  }
+  .desc {
+    font-size: 25px;
+    text-transform: uppercase;
+
+  }
+  h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #ffe8a1;
+    margin-bottom: 30px;
+  }
+  @media (min-width: 768px) {
+    .desc {
+      &:nth-child(even) {
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
